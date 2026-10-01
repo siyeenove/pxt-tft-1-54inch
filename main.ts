@@ -1,11 +1,12 @@
 /*
 * This extension library was developed by the SIYEENOVE team.
-* Date: 2026-08-19
-* Version: 2.0 - Performance optimized
+* Date: 2026-10-1
+* Version: 1.0
+* This extension automatically turns off microbit's dot matrix display.
 */
 
-//% weight=10 color=#00b0ff block="TFT_ST7789" blockId="TFT_ST7789" icon="\uf108"
-namespace TFT_ST7789 {
+//% weight=10 color=#00b0ff block="TFT_1_54inch" blockId="TFT_1_54inch" icon="\uf108"
+namespace TFT_1_54inch {
     export enum Color {
         //% block="Black"
         Black = 0x0000,
